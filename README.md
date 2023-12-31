@@ -10,7 +10,7 @@ I'm Abdul Rehman Siddique, a 20 years old web developer from INDIA.
 - 👨‍💻 JavaScript, c++ ;
 - ⚙️ React
 - 👁️ SASS, CSS , Bootstrap , Tailwind
-- 💽 Node.js , Express.js , Mongo
+- 💽 Node.js , Express.js , MongoDB, Sanity
 + a lot more :D
 
 ## Contact
