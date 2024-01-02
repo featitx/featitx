@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://github.com/featitx/featitx/blob/master/react_frontend/src/assets/logo-readme.png" alt = "logo_main" />
+  <img src="https://github.com/featitx/featitx/blob/master/react_frontend/src/assets/logo-readme.png" height="100px" width="100px" alt = "logo_main" />
 </h1>
 
 ## Hey! 👋
