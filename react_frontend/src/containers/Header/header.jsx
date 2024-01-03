@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-// import { AppWrap } from '../../wrapper';
+import { AppWrap } from '../../wrapper';
 import { images } from '../../constants';
 import './header.scss';
 
@@ -68,7 +68,6 @@ const Header = () => (
   </div>
 );
 
-export default Header;
 
 
-// export default AppWrap(Header, 'home');
+export default AppWrap(Header, 'home');
