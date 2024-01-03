@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/martonlederer/martonlederer/master/name.svg" alt="Marton Lederer" />
+  <img src="https://github.com/featitx/featitx/blob/master/react_frontend/src/assets/logo-readme.png" height="250px" width="270px" alt = "logo_main" />
 </h1>
 
 ## Hey! 👋
