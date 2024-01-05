@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="/react_frontend/src/assets/logo.png" height="250px" width="270px" alt = "logo_main" />
+  <img src="/react_frontend/src/assets/logo.png" height="100px" width="270px" alt = "logo_main" />
 </h1>
 
 ## Hey! 👋
