@@ -17,26 +17,21 @@ const scaleVariants = {
 };
 
 const Header = () => (
-  <div className="app__header app__flex">
+
+<>
+<h2 className="head-text app__header"> नमस्ते <span>Buddies</span> <br />Myself  <span>Abdul Rehman Siddique</span></h2>
+
+<div className="app__header app__flex">
+    
     <motion.div
       whileInView={{ x: [-100, 0], opacity: [0, 1] }}
       transition={{ duration: 0.5 }}
       className="app__header-info"
     >
-      <div className="app__header-badge">
-        <div className="badge-cmp app__flex">
-          <span>👋</span>
-          <div style={{ marginLeft: 20 }}>
-            <p className="p-text-special">नमस्ते, Myself</p>
-            <h1 className="head-text">Abdullah</h1>
-          </div>
-        </div>
 
-        <div className="tag-cmp app__flex">
-          <p className="p-text-special"><span> 👨🏻‍💻 Web Developer</span></p>
-          {/* <p className="p-text">Freelancer</p> */}
-        </div>
-      </div>
+      <h2 className="side-text">Download Resume</h2>
+      <button id='download-btn'>Download</button>
+
     </motion.div>
 
     <motion.div
@@ -65,7 +60,9 @@ const Header = () => (
         </div>
       ))}
     </motion.div>
-  </div>
+  </div></>
+
+  
 );
 
 
