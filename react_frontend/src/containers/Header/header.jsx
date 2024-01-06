@@ -16,10 +16,31 @@ const scaleVariants = {
   },
 };
 
+
+const resumePdfUrl = 'https://drive.google.com/file/d/18jGi2MUBq8R4Q7hwzh2aH_Pko09vTqRq/view?usp=sharing';
+
+  const handleDownload = () => {
+    window.open(resumePdfUrl, '_blank');
+  };
+
+  
+  
 const Header = () => (
 
 <>
-<h2 className="head-text app__header"> नमस्ते <span>Buddies</span> <br />Myself  <span>Abdul Rehman Siddique</span></h2>
+<h2 className="head-text app__header">
+  <div className='header-body'> 
+    <div>नमस्ते दोस्तों !</div> 
+    <br />
+<div> 
+  <span>Myself Abdul Rehman   </span>
+</div>
+
+</div>
+</h2>
+
+
+  
 
 <div className="app__header app__flex">
     
@@ -29,8 +50,8 @@ const Header = () => (
       className="app__header-info"
     >
 
-      <h2 className="side-text">Download Resume</h2>
-      <button id='download-btn'>Download</button>
+      <h2 className="side-text">Software developer specialization in Frontend Development.</h2>
+      <button id='download-btn' onClick={handleDownload}>Checkout Resume </button>
 
     </motion.div>
 
@@ -54,7 +75,7 @@ const Header = () => (
       whileInView={scaleVariants.whileInView}
       className="app__header-circles"
     >
-      {[images.flutter, images.redux, images.sass].map((circle, index) => (
+      {[images.node, images.react, images.sass].map((circle, index) => (
         <div className="circle-cmp app__flex" key={`circle-${index}`}>
           <img src={circle} alt="profile_bg" />
         </div>
