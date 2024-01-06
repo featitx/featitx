@@ -1,6 +1,3 @@
-<h1 align="center">
-  <img src="/react_frontend/src/assets/logo.png" height="100px" width="270px" alt = "logo_main" />
-</h1>
 
 ## Hey! 👋
 I'm Abdul Rehman Siddique, a 20 years old web developer from INDIA.
