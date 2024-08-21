@@ -4,8 +4,8 @@ I'm Abdul Rehman Siddique, a 20 years old web developer from INDIA.
 
 
 ## Skills
-- 👨‍💻 JavaScript, c++ ;
-- ⚙️ React
+- 👨‍💻 JavaScript, Java , python ;
+- ⚙️ React 
 - 👁️ SASS, CSS , Bootstrap , Tailwind
 - 💽 Node.js , Express.js , MongoDB, Sanity
 + a lot more :D
